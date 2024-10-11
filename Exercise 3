@@ -1,0 +1,64 @@
+Site da Azul Linhas Aéreas
+
+1. Introdução
+Este relatório apresenta a avaliação heurística do site da Azul Linhas Aéreas, focando no cenário de compra de passagem aérea. O processo de avaliação seguiu as 10 heurísticas de Jakob Nielsen, que abordam a usabilidade em interfaces de usuário, buscando identificar problemas que possam afetar negativamente a experiência do usuário durante a navegação.
+
+2. Cenário Avaliado: Compra de Passagem Aérea
+Foi realizada a avaliação do fluxo completo de compra de uma passagem aérea no site, incluindo as seguintes etapas:
+
+Escolha de voos
+Preenchimento de dados pessoais
+Seleção de assento
+Realização do pagamento
+Confirmação da compra
+3. Problemas Identificados e Severidade
+# Id	CENÁRIO	PROBLEMA	JUSTIFICATIVA	SEVERIDADE
+1	Escolha de voo	A listagem dos voos disponíveis é confusa, sem destaque visual claro para os voos com melhor custo-benefício, horário ou duração de voo.	Os usuários podem ter dificuldade para identificar rapidamente o melhor voo com base em critérios importantes, o que pode causar frustração e atrasos na tomada de decisão.	2 (problema menor)
+2	Preenchimento de dados pessoais	Exige que o usuário digite informações redundantes, como nome completo em campos de "comprador" e "passageiro", sem opção de reutilizar os dados já preenchidos.	Isso viola a heurística de Reconhecimento e não memorização, pois o sistema exige esforço desnecessário do usuário, comprometendo a eficiência no processo de preenchimento.	3 (problema maior)
+3	Seleção de assento	O mapa de assentos é de difícil interpretação, com assentos disponíveis e ocupados mal sinalizados, o que torna a escolha confusa.	Afeta a heurística de Visibilidade do estado do sistema, pois o usuário não consegue visualizar claramente a situação dos assentos disponíveis, o que gera confusão.	3 (problema maior)
+4	Pagamento	O sistema rejeitou o pagamento com cartão de crédito, mas a mensagem de erro não forneceu uma explicação clara ou solução para o problema.	Isso compromete as heurísticas de Ajuda para reconhecer, diagnosticar e remediar erros. O usuário não entende o que causou o erro nem como pode resolvê-lo.	4 (catástrofe de usabilidade)
+5	Confirmação da compra	A página de confirmação exibe uma grande quantidade de informações de uma só vez, com layout desorganizado, dificultando a revisão final dos dados antes da compra.	Este problema viola a heurística de Design estético e minimalista, gerando sobrecarga cognitiva ao usuário, que precisa filtrar as informações relevantes em meio ao caos.	2 (problema menor)
+4. Análise Detalhada das Heurísticas
+4.1. Visibilidade do Estado do Sistema
+A visibilidade do estado do sistema foi comprometida especialmente na seleção de assentos (problema 3). A interface não torna claro quais assentos estão disponíveis ou já ocupados, o que aumenta o tempo de escolha e frustra o usuário. Além disso, durante o pagamento, o sistema falhou ao não informar o motivo da recusa do cartão de crédito, deixando o usuário sem clareza do que ocorreu e como proceder (problema 4).
+
+4.2. Correspondência entre o Sistema e o Mundo Real
+A correspondência entre o sistema e o mundo real foi, de modo geral, bem mantida, exceto na fase de preenchimento de dados pessoais (problema 2), onde o sistema poderia adotar uma abordagem mais próxima à experiência de compra comum, permitindo que os dados do comprador sejam reutilizados para os passageiros, em vez de forçar o preenchimento redundante.
+
+4.3. Controle e Liberdade para o Usuário
+A avaliação constatou que o sistema oferece pouca liberdade para o usuário em algumas etapas críticas, especialmente na fase de pagamento. Ao apresentar erros sem explicação (problema 4), o sistema deixa o usuário sem saída, obrigando-o a tentar novamente sem saber se o erro pode se repetir ou como solucioná-lo.
+
+4.4. Consistência e Padronização
+A consistência é, em geral, boa, mas há pequenas inconsistências no design do mapa de assentos (problema 3), onde o padrão de cores e ícones poderia ser mais evidente para indicar a disponibilidade dos assentos, reduzindo a confusão.
+
+4.5. Prevenção de Erros
+O sistema não evita de forma eficiente os erros durante o pagamento (problema 4). Seria ideal que houvesse uma pré-validação das informações inseridas no cartão de crédito ou opções alternativas claras ao pagamento rejeitado.
+
+4.6. Ajuda para Reconhecer, Diagnosticar e Remediar Erros
+Na etapa de pagamento, as mensagens de erro não orientam o usuário de forma adequada. Este é um problema grave (problema 4), pois impede que o usuário entenda o que deu errado, obrigando-o a adivinhar ou tentar novamente sem saber se a próxima tentativa terá sucesso.
+
+4.7. Reconhecimento e Não Memorização
+Há uma clara violação desta heurística no preenchimento de dados pessoais (problema 2). A interface força o usuário a repetir informações, aumentando a chance de erro e o tempo gasto desnecessariamente em etapas que poderiam ser automatizadas.
+
+4.8. Flexibilidade e Eficiência no Uso
+Não foram identificadas opções de teclas de atalho ou personalização que pudessem melhorar a eficiência para usuários mais experientes. Isso impacta a flexibilidade do sistema e poderia ser melhorado oferecendo recursos mais avançados para navegação rápida.
+
+4.9. Design Estético e Minimalista
+O excesso de informações na página de confirmação da compra (problema 5) impacta negativamente a experiência do usuário, que pode se sentir sobrecarregado por detalhes que não são essenciais naquele momento. A interface deveria ser mais limpa e objetiva.
+
+4.10. Ajuda e Documentação
+O sistema oferece poucas opções de ajuda durante o processo de compra, especialmente em momentos críticos como o pagamento, onde seria útil uma explicação mais detalhada do que pode ter dado errado e como resolver.
+
+5. Recomendações de Melhoria
+Escolha de Voo: Organizar a lista de voos com destaque visual para as opções mais relevantes, facilitando a escolha. Isso pode ser feito usando filtros ou destacando melhor os melhores preços e horários.
+
+Preenchimento de Dados Pessoais: Permitir o preenchimento automático de dados entre comprador e passageiro, reduzindo o esforço do usuário.
+
+Seleção de Assentos: Melhorar a visibilidade dos assentos disponíveis, usando cores ou ícones mais evidentes.
+
+Pagamento: Implementar mensagens de erro mais detalhadas e úteis, sugerindo soluções ou causas para a falha no pagamento.
+
+Confirmação da Compra: Reduzir o número de informações na página de confirmação, organizando os dados de forma mais clara e simplificada.
+
+6. Conclusão
+A avaliação identificou problemas significativos na usabilidade do site da Azul, especialmente relacionados à clareza das mensagens de erro e à organização da interface em momentos cruciais como o pagamento e a seleção de assentos. Resolver esses problemas pode melhorar a experiência do usuário e aumentar a taxa de conversão de vendas no site.
