@@ -1,0 +1,128 @@
+class Filme:
+    def __init__(self, titulo, duracao, classificacao_etaria, preco):
+        self.__titulo = titulo
+        self.__duracao = duracao
+        self.__classificacao_etaria = classificacao_etaria
+        self.__preco = preco
+
+    def get_titulo(self):
+        return self.__titulo
+
+    def set_titulo(self, titulo):
+        self.__titulo = titulo
+
+    def get_duracao(self):
+        return self.__duracao
+
+    def set_duracao(self, duracao):
+        self.__duracao = duracao
+
+    def get_classificacao_etaria(self):
+        return self.__classificacao_etaria
+
+    def set_classificacao_etaria(self, classificacao_etaria):
+        self.__classificacao_etaria = classificacao_etaria
+
+    def get_preco(self):
+        return self.__preco
+
+    def set_preco(self, preco):
+        self.__preco = preco
+
+    def aplicar_desconto(self, percentual):
+        desconto = self.__preco * (percentual / 100)
+        self.__preco -= desconto
+
+    def aumentar_preco(self, percentual):
+        aumento = self.__preco * (percentual / 100)
+        self.__preco += aumento
+
+    def atualizar_classificacao(self, nova_classificacao):
+        self.__classificacao_etaria = nova_classificacao
+
+    def to_string(self):
+        return f"Título: {self.__titulo}, Duração: {self.__duracao} min, Classificação Etária: {self.__classificacao_etaria}, Preço: R${self.__preco:.2f}"
+
+
+class Principal:
+    def __init__(self):
+        self.filmes = []
+
+    def menu(self):
+        while True:
+            print("\nMenu:")
+            print("1. Adicionar novo filme")
+            print("2. Aplicar desconto no filme")
+            print("3. Aumentar preço do filme")
+            print("4. Atualizar classificação etária do filme")
+            print("5. Mostrar detalhes dos filmes")
+            print("6. Sair")
+
+            opcao = input("Escolha uma opção: ")
+
+            if opcao == "1":
+                self.adicionar_novo_filme()
+            elif opcao == "2":
+                self.aplicar_desconto_filme()
+            elif opcao == "3":
+                self.aumentar_preco_filme()
+            elif opcao == "4":
+                self.atualizar_classificacao_filme()
+            elif opcao == "5":
+                self.mostrar_detalhes_filmes()
+            elif opcao == "6":
+                print("Saindo...")
+                break
+            else:
+                print("Opção inválida, tente novamente.")
+
+    def adicionar_novo_filme(self):
+        titulo = input("Digite o título do filme: ")
+        duracao = int(input("Digite a duração do filme em minutos: "))
+        classificacao_etaria = input("Digite a classificação etária do filme: ")
+        preco = float(input("Digite o preço do filme: R$"))
+        filme = Filme(titulo, duracao, classificacao_etaria, preco)
+        self.filmes.append(filme)
+        print("Filme adicionado com sucesso!")
+
+    def aplicar_desconto_filme(self):
+        self.mostrar_detalhes_filmes()
+        numero = int(input("Digite o número do filme para aplicar desconto: ")) - 1
+        percentual = float(input("Digite o percentual de desconto: "))
+        if 0 <= numero < len(self.filmes):
+            self.filmes[numero].aplicar_desconto(percentual)
+            print("Desconto aplicado com sucesso!")
+        else:
+            print("Número inválido.")
+
+    def aumentar_preco_filme(self):
+        self.mostrar_detalhes_filmes()
+        numero = int(input("Digite o número do filme para aumentar o preço: ")) - 1
+        percentual = float(input("Digite o percentual de aumento: "))
+        if 0 <= numero < len(self.filmes):
+            self.filmes[numero].aumentar_preco(percentual)
+            print("Preço aumentado com sucesso!")
+        else:
+            print("Número inválido.")
+
+    def atualizar_classificacao_filme(self):
+        self.mostrar_detalhes_filmes()
+        numero = int(input("Digite o número do filme para atualizar a classificação etária: ")) - 1
+        nova_classificacao = input("Digite a nova classificação etária: ")
+        if 0 <= numero < len(self.filmes):
+            self.filmes[numero].atualizar_classificacao(nova_classificacao)
+            print("Classificação etária atualizada com sucesso!")
+        else:
+            print("Número inválido.")
+
+    def mostrar_detalhes_filmes(self):
+        if not self.filmes:
+            print("Nenhum filme cadastrado.")
+            return
+        for i, filme in enumerate(self.filmes):
+            print(f"{i + 1}. {filme.to_string()}")
+
+
+if __name__ == "__main__":
+    principal = Principal()
+    principal.menu()
