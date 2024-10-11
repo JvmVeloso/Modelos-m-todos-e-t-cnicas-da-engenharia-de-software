@@ -1,0 +1,242 @@
+Exercícios Revisão A1
+Responda às questões abaixo e explique porque escolheu cada opção.
+
+1)	Funções que, quando executadas em um ambiente digital, fornecem características, funcionalidades e desempenho desejados e que são projetadas em conjunto com uma estrutura de dados que permitem acessar, criar, editar e excluir informações de usuários finais, de forma interativa, e reproduzir informações de forma organizada. 
+
+Essas informações apresentam as características de um (a)
+
+a)	Sistema de gerenciamento de banco de dados
+b)	Servidor 
+c)	Monitores
+d)	Sistema operacional
+
+ A resposta é : A
+2)	Sobre a engenharia de software, considere:
+
+I. Atualmente todos os problemas na construção de software de alta qualidade no prazo e dentro do orçamento foram solucionados.
+
+II. Ao longo dos últimos 50 anos, o software evoluiu de um produto de indústria para um ferramental especializado em solução de problemas e análise de informações específicas.
+
+III. Todo projeto de software é iniciado por alguma necessidade do negócio.
+
+IV. O intuito da engenharia de software é fornecer uma estrutura para a construção de software com alta qualidade.
+
+Está correto o que consta em: 
+
+a)	 III e IV, somente. 
+b)	 II e III, somente. 
+c)	 I, II e IV, somente. 
+d)	II, III e IV, somente. 
+e)	 I, II, III e IV. 
+
+ A resposta é : d
+3)	No desenvolvimento de sistemas, diversas atividades são realizadas, sendo duas descritas a seguir. 
+
+I- Combina geração de código de código e os testes necessários para revelar erros de código. 
+II - Inclui a criação de modelos que permitam ao desenvolvedor e ao cliente melhor entender os requisitos do software e o projeto que vai satisfazer a esses requisitos.
+
+Essas atividades são conhecidas, respectivamente, por:
+
+a)	Construção e Manutenção
+b)	Construção e Modelagem 
+c)	Implantação e Manutenção
+d)	Implantação e Modelagem
+e)	Codificação e análise de requisitos
+
+ A resposta é : e
+
+4)	Processos podem ser definidos para atividades de desenvolvimento, manutenção, aquisição e contratação de software. Em engenharia de software, para a arquitetura dos processos, um ponto de partida é a escolha de um ciclo de vida. Qual é a característica de um ciclo de vida em cascata?
+
+a)	Alta visibilidade para o cliente.
+
+b)	O produto é desenvolvido em uma série de iterações.
+
+c)	O produto que se entrega é apenas um resultado parcial. 
+
+d)	Os principais subprocessos são executados em estrita sequência.
+
+e)	Percorre todas as fases do processo de software.
+
+ A resposta é : d
+
+5)	No método ágil Scrum, há um artefato denominado backlog, aplicado a diversas etapas do método. Em particular, o backlog do produto corresponde a:
+
+a)	um conjunto de todos os produtos de software já desenvolvidos com o uso do Scrum.
+
+b)	uma lista das funcionalidades a serem implementadas no produto.
+
+c)	uma relação dos analistas envolvidos no desenvolvimento do produto.
+
+d)	um conjunto de normas seguidas pela empresa proprietária do produto.
+
+e)	uma relação dos futuros usuários do produto.
+
+
+ A resposta é : b
+6)	O Scrum é uma metodologia ágil para a gestão e planejamento de projetos de software.
+
+Analise as afirmativas abaixo com relação a este assunto.
+
+1. As funcionalidades a serem implementadas em um projeto são mantidas em uma lista que é conhecida como Product Backlog. 
+2. No início de cada Sprint, faz-se um Sprint Planning Meeting, ou seja, uma reunião de planejamento na qual o Product Owner prioriza os itens do Product Backlog e a equipe seleciona as atividades que ela será capaz de implementar durante o Sprint que se inicia. 
+3. Ao final de um Sprint, a equipe apresenta as funcionalidades implementadas em uma Sprint Analysis Overview.
+
+Assinale a alternativa que indica todas as afirmativas corretas.
+a)	É correta apenas a afirmativa 1.
+b)	São corretas apenas as afirmativas 1 e 2. 
+c)	São corretas apenas as afirmativas 1 e 3.
+d)	São corretas apenas as afirmativas 2 e 3.
+e)	São corretas as afirmativas 1, 2 e 3.
+
+ A resposta é : b
+
+7)	Um dos processos ágeis de desenvolvimento de software é a programação extrema (extreme programming – XP), cuja fase ou atividade inicial é composta pela descrição dos cenários (características e funcionalidades) requisitadas para o software a ser desenvolvido. Essa atividade recebe a denominação de:
+
+a)	métodos práticos.
+b)	histórias de usuário. 
+c)	estruturas de apoio.
+d)	classes de projeto.
+e)	artefatos de usuário.
+
+ A resposta é : b
+
+8)	As etapas para o processo de planejamento de projeto devem possuir as seguintes características exceto:
+
+
+a)	Deve ser realizado após o levantamento dos requisitos do sistema. 
+b)	O projeto deve implementar todos os requisitos explícitos contidos no modelo de requisitos.
+c)	É responsável pela visão de todo o software com o tratamento necessário dos dados, funcionalidades e comportamento do software.
+d)	Deve ser legível tanto para os desenvolvedores, os analistas de testes e para quem vai dar suporte ao software.
+e)	Deve possuir um cronograma das atividades a serem realizadas no projeto.
+
+
+ A resposta é : a
+9)	Os requisitos de software são frequentemente classificados como requisitos funcionais e requisitos não funcionais. Assinale a alternativa que defina corretamente os requisitos funcionais.
+
+a)	Declarações de serviços que o sistema deve fornecer, de como o sistema deve reagir a entradas específicas e de como o sistema deve se comportar em determinadas situações. Incluem restrições de tempo, restrições no processo de desenvolvimento e restrições impostas pelas normas.
+
+b)	Declarações de serviços que o sistema deve fornecer, de como o sistema deve reagir a entradas específicas e de como o sistema deve se comportar em determinadas situações. Em alguns casos, estes requisitos também podem explicitar o que o sistema não deve fazer. 
+
+c)	Restrições aos serviços ou funções oferecidas pelo sistema. Incluem restrições de tempo, restrições no processo de desenvolvimento e restrições impostas pelas normas.
+
+d)	O sistema deve reagir a acessos não autorizados.
+
+e)	O sistema deve ser intuitivo para os usuários.
+
+
+ A resposta é : b
+10)	Um Analista necessita levantar os requisitos de um sistema junto aos usuários. São técnicas de levantamento de requisitos:
+
+a)	Cenários e Peer Review.
+b)	 Product Owner e Brainstorming.
+c)	Overview e Use Cases.
+d)	Joint Application Design (ou Development) – JAD e Etnografia. 
+e)	 Prototipação e Sprint.
+
+ A resposta é : d
+11)	A classificação dos requisitos é de acordo com vários aspectos e podem ser classificados em:
+
+a)	Implementável
+b)	Não implementável
+c)	Essencial
+d)	Importante
+e)	Desejável
+
+Marque a opção onde todas as opções são verdadeiras:
+
+a)	Implementável, não implementável e Essencial.
+b)	Implementável, não implementável e ordenada.
+c)	Implementável, essencial e importante
+d)	Desejável, Importante e Essencial. 
+e)	Funcional, baixo custo e importante.
+
+ A resposta é : a
+12)	A modelagem ou projeto de software apresenta, exceto:
+
+a)	O projeto dos componentes do sistema e o funcionamento de cada um deles, podendo ser usado para geração de código fonte.
+b)	As atividades a serem realizadas no software, onde é controlado desde a data de início até a data de finalização ou entrega do software. 
+c)	O projeto arquitetural e a estrutura geral do sistema.
+d)	A estrutura de banco de dados do sistema e sua representação.
+e)	Definição das interfaces entre os componentes do sistema.
+
+ A resposta é : b
+13)	Qual deve ser a primeira atividade a ser realizada durante a fase de projeto e que representa como o sistema será composto, considerando suas diversas partes? 
+
+a) Representação da arquitetura do sistema. 
+b) Modelagem de interfaces. 
+c) Projeto de componentes. 
+     d) Criação do modelo de projeto. 
+e) Implementação do sistema
+
+ A resposta é : A
+14)	Acerca do Levantamento de Requisitos de Software, pode ser considerado um exemplo de requisito não-funcional:
+
+a)	“O sistema deve realizar o cancelamento da reserva da passagem”.
+
+b)	“O sistema deve emitir nota fiscal eletrônica”.
+
+c)	“O usuário deve ser capaz de escolher a forma de pagamento da passagem”.
+
+d)	“O sistema deve levar no máximo 3 minutos para registrar a reserva”.
+
+ A resposta é : d
+15)	Os Requisitos de Software são utilizados na criação de Sistemas de desenvolvimento. No que se refere aos conceitos de requisitos de Software, pode-se afirmar:
+
+a)	Requisitos funcionais descrevem as funcionalidades ou serviços que se esperam do sistema, descrevendo aquilo que é essencial, ou seja, o que se espera diretamente do sistema. 
+
+b)	Requisitos não funcionais são requisitos diretamente relacionados às funções precípuas do sistema.
+
+
+c)	A documentação de requisitos trata-se da declaração não oficial do que é exigido dos desenvolvedores do sistema e por isso poderá ser descartado posteriormente.
+d)	Ambos os requisitos são idealizados pelo engenheiro de Software sem interferências externas.
+
+e)	A aprovação dos requisitos é realizada pelo analista que os colocará oficialmente na documentação de requisitos.
+
+ A resposta é : A
+16)	Após o sistema ser colocado no ambiente de produção, inicia-se as manutenções. Em relação aos tipos de manutenção de software, marque a opção incorreta.
+
+a)	A manutenção corretiva é destinada a correção de bugs, tais como: mensagens de erro na tela, erro ao carregar uma página do sistema, não carregamento do sistema.
+
+b)	A manutenção evolutiva acontece quando o software sofre modificações para alteração ou adição de novas funcionalidades no sistema.
+
+c)	A manutenção emergencial ocorre quando deve-se incluir novas funcionalidades no sistema. 
+
+d)	A manutenção preventiva ocorre quando a falha no sistema é detectada antecipadamente, por meio de testes em todas as funcionalidades do sistema.
+
+e)	A manutenção adaptativa é necessária quando o sistema tem alteração em sua infraestrutura, por exemplo, mudança de servidor de banco de dados ou de aplicação, bem como mudanças de tecnologias.
+
+ A resposta é : c
+17)	A reengenharia de software no desenvolvimento de sistemas tem como objetivo:
+
+
+a)	Fazer a manutenções evolutivas no sistema de informação.
+b)	Refazer a documentação do software, pois não tem dificuldades de mantê-lo em funcionamento.
+c)	É aplicado em um sistema legado, que possuem tecnologias obsoletas que dificultam a manutenção e por consequência custam maior tempo e custo para manter o sistema. 
+d)	Construir um novo software a partir de novos protótipos homologados pelo cliente.
+e)	Reconstruir o sistema novamente, passando por todas as etapas de desenvolvimento de software.
+
+ A resposta é : c
+18)	Para a realização do plano de atualização de software deve-se analisar alguns aspectos, marque a alternativa incorreta:
+
+
+a)	Deve-se verificar as integrações com outros sistemas.
+b)	A versão disponibilizada em produção deve atender às necessidades da organização.
+c)	Avaliar se o custo necessário para a atualização do software é viável para a empresa. 
+d)	Logo após a nova atualização do sistema, as novas funcionalidades devem ser apresentadas aos usuários.
+e)	Apurar quais os setores da organização podem ser impactados e apresentar um plano de contingência.
+
+
+
+
+
+
+ A resposta é : d
+19)	A confiabilidade de um software se refere a aspectos, tais como, exceto:
+
+
+a)	Disponibilidade do funcionamento do sistema para o uso dos usuários.
+b)	Entrega do sistema conforme foi definido na especificação de requisitos.
+c)	Segurança em sistemas para evitar falhas no sistema de forma preventiva, corretiva e de proteção.
+d)	A proteção do sistema é a mais importante em relação a confiabilidade de sistemas, que tem o propósito de minimizar ataques e acesso aos dados, como sistemas bancários, comércio eletrônico.
+e)	A utilização de técnicas para aumentar a confiabilidade de sistemas não afeta no preço do hardware a ser utilizado.
+ A resposta é : e
